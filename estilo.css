@@ -1,0 +1,172 @@
+*{
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+
+
+
+/* PRIMEIRO CABEÇALHO */
+
+
+.menu{
+    display: flex;
+    align-items: center;
+    background-color: #008374;
+    height: 70px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    margin-left: 50px;
+    font-weight: 100;
+    font-family: 'Lucida Sans Regular';
+}
+
+h2{
+    margin-right: 610px;
+    margin-left: 100px;
+    font-size: 40px;
+    color: white;
+    font-weight: 100;
+    display: flex;
+    align-items: center;
+    font-family: 'Lucida Sans Regular';
+
+}
+
+
+/* SEGUNDO CABEÇALHO */
+
+.mulher{
+    height: 351px;
+    background-color: #23A092;
+    display: flex;
+}
+
+.D01{
+    margin-top: 150px;
+}
+
+
+p{
+    font-size: 35px;
+    margin-left: 100px;
+    color: white;
+    font-weight: 100;
+    font-family: 'Lucida Sans Regular';
+}
+
+img{
+    margin-top: 38px;
+    padding-right: 100px;
+    height: 350px
+}
+
+/* Começo do Main */
+
+@font-face {
+    font-family: abel;
+    src: url(Abel-Regular.ttf);
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+.text{
+    font-family: abel;
+    color: black;
+    font-size: 22px;
+    text-align: center;
+    margin-right: 95px;
+    width: 220px;
+}
+
+.icon{
+    height: 50px;
+    margin-left: 115px;
+    margin-bottom: 30px;
+}
+
+.cabine{
+flex-direction: column;
+border: black solid 1px;
+height: 205px;
+width: 230px;
+align-items: center;
+justify-items: center;
+display: flex;
+margin: 0px 20px ;
+margin-top: 120px;
+}
+
+/* Segunda parte do main */
+
+@font-face {
+    font-family: bee;
+    src: url(ABeeZee-Regular.ttf);
+}
+
+.Plano{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+.Ptexto{
+    color: black;
+    font-size: 26px;
+    font-family: abel;
+}
+
+h3{
+    font-family: bee;
+    font-size: 25px;
+    margin-bottom: 20px;
+    margin-left:95px ;
+}
+
+/* Momento dos preços */
+
+@font-face {
+    font-family: inter;
+    src: url(Inter-VariableFont_opsz\,wght.ttf);
+}
+
+.basico{
+    height: 533px;
+    width: 396px;
+    background-color: #EDECEC;
+    margin: 0px 20px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.precos{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h4{
+    font-family: inter;
+    font-size: 26px;
+}
+
+.premium{
+    font-family: abel;
+    font-size: 25px;
+    text-align: center;
+}
