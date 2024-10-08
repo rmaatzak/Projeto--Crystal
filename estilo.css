@@ -151,6 +151,8 @@ h3{
     justify-content: center;
     display: flex;
     flex-direction: column;
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.5);
+    margin-bottom: 150px;
 }
 
 .precos{
@@ -163,10 +165,66 @@ h3{
 h4{
     font-family: inter;
     font-size: 26px;
+    margin-top: 20px;
+    margin-bottom: 50px;
 }
 
 .premium{
     font-family: abel;
     font-size: 25px;
-    text-align: center;
+    text-align: left;
+    color: black;
+    padding-right: 80px;
+}
+ 
+
+
+.linha{
+    height: 30px;
+    width: 396px;
+    background-color: #FF912D;
+    margin-bottom: 50px;
+}
+
+
+/* footer */
+
+.end{
+    height: 250px;
+    background-color: #008374;
+    display: flex;
+    flex-direction: column;
+  
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.fundo{
+    height: 150px;
+    background-color: #008374;
+    padding-top: 50px;
+}
+
+.opcoes{
+    display: flex;
+    flex-direction: column;
+}
+
+.tudo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.resposta{
+    margin-left: 930px;
+}
+
+.texxto{
+    font-family: abel;
+    font-size: 20px;
+    width: 350px;
+    /* padding-right: px; */
 }
